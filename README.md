@@ -1,7 +1,7 @@
 # 🌟 Awesome GitHub Stars Collection
 
 [![Auto Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)](https://github.com)
-[![Projects](https://img.shields.io/badge/Projects-15%2Fday-blue)](https://github.com)
+[![Projects](https://img.shields.io/badge/Projects-45-blue)](https://github.com)
 
 ## 📖 项目简介
 
@@ -19,10 +19,11 @@ awesome-github-stars/
 ├── README.md                    # 项目说明
 ├── 2026/                        # 按年份分类
 │   └── 01-January/             # 按月份分类
+│       ├── README.md           # 月度索引
 │       ├── 2026-01-20.md       # 每日收集记录
 │       ├── 2026-01-21.md
 │       └── ...
-└── archive/                     # 历史归档
+└── logs/                        # 运行日志
 ```
 
 ## 📊 收集规则
@@ -30,7 +31,7 @@ awesome-github-stars/
 - **收集频率**：每天自动执行
 - **项目数量**：每天 15 个
 - **项目标准**：5k+ stars 或当日热门趋势
-- **仓库容量**：每个仓库存放约 100 个项目（7 天）
+- **仓库容量**：每个仓库存放约 100 个项目（满后自动创建新仓库）
 - **更新时间**：每天 UTC+8 时区自动更新
 
 ## 📝 项目信息
@@ -42,6 +43,7 @@ awesome-github-stars/
 - Star 数和 Fork 数
 - 项目简介
 - 今日新增 Star 数（如适用）
+- 项目来源标记（Trending / Top Stars）
 
 ## 🔗 最新收集
 
@@ -53,6 +55,7 @@ MIT License - 数据来源于 GitHub 公开信息
 
 ---
 
-**最后更新**: 2026-01-20  
+**最后更新**: 2026-01-21  
 **自动化工具**: Manus AI Agent  
-**数据来源**: GitHub Trending & GitHub Ranking
+**数据来源**: GitHub Trending & GitHub Ranking  
+**项目地址**: https://github.com/DannyFish-11/awesome-github-stars
