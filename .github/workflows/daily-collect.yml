@@ -1,0 +1,57 @@
+name: Daily GitHub Stars Collection
+
+on:
+  schedule:
+    # 每天 UTC 01:00 执行（北京时间 09:00）
+    - cron: '0 1 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # 需要写入权限以推送更改
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4
+    
+    - name: Configure Git
+      run: |
+        git config user.name "DannyFish-11"
+        git config user.email "dannyfish@example.com"
+    
+    - name: Run collection script
+      run: |
+        chmod +x daily_collect.sh
+        ./daily_collect.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Upload logs
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: collection-logs-${{ github.run_number }}
+        path: logs/
+        retention-days: 30
+    
+    - name: Check execution status
+      if: failure()
+      run: |
+        echo "❌ Collection failed! Check logs for details."
+        cat logs/collect_$(date +%Y-%m-%d).log || echo "Log file not found"
