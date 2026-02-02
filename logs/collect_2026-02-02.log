@@ -113,3 +113,46 @@ Already up to date.
 [0;34m[2026-02-02 02:53:41] ℹ️  [INFO][0m 步骤 3/3: 提交到 Git 仓库
 [0;34m[2026-02-02 02:53:41] ℹ️  [INFO][0m ==========================================
 [0;34m[2026-02-02 02:53:41] ℹ️  [INFO][0m 添加文件到 Git...
+[0;34m[2026-02-02 02:53:41] ℹ️  [INFO][0m 提交更改...
+[main eba49a4] 📅 Daily collection: 2026-02-02 - 15 projects added
+ 3 files changed, 102 insertions(+), 49 deletions(-)
+[0;32m[2026-02-02 02:53:41] ✅ [SUCCESS][0m 提交完成
+[0;34m[2026-02-02 02:53:41] ℹ️  [INFO][0m 推送到远程仓库...
+To https://github.com/DannyFish-11/awesome-github-stars.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 830858ee4f48eec5b7bb84e4d35d6079fe243e26 but expected 8c38f62b64d5838af7fd3487ee031ae8d82099d8)
+error: failed to push some refs to 'https://github.com/DannyFish-11/awesome-github-stars.git'
+[1;33m[2026-02-02 02:53:42] ⚠️  [WARNING][0m 推送失败，5秒后重试 (1/3)...
+To https://github.com/DannyFish-11/awesome-github-stars.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/DannyFish-11/awesome-github-stars.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[1;33m[2026-02-02 02:53:48] ⚠️  [WARNING][0m 推送失败，5秒后重试 (2/3)...
+To https://github.com/DannyFish-11/awesome-github-stars.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/DannyFish-11/awesome-github-stars.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[0;31m[2026-02-02 02:53:53] ❌ [ERROR][0m 推送失败，已尝试 3 次
+[1;33m[2026-02-02 02:53:53] ⚠️  [WARNING][0m 本地更改已保存，请稍后手动推送
+[0;34m[2026-02-02 02:53:53] ℹ️  [INFO][0m ==========================================
+[0;34m[2026-02-02 02:53:53] ℹ️  [INFO][0m 生成统计报告
+[0;34m[2026-02-02 02:53:53] ℹ️  [INFO][0m ==========================================
+[0;32m[2026-02-02 02:53:53] ✅ [SUCCESS][0m ==========================================
+[0;32m[2026-02-02 02:53:53] ✅ [SUCCESS][0m 任务执行完成！
+[0;32m[2026-02-02 02:53:53] ✅ [SUCCESS][0m ==========================================
+[0;34m[2026-02-02 02:53:53] ℹ️  [INFO][0m 今日收集: 15 个项目
+[0;34m[2026-02-02 02:53:53] ℹ️  [INFO][0m 累计天数: 9 天
+[0;34m[2026-02-02 02:53:53] ℹ️  [INFO][0m 累计项目: 135 个
+[0;34m[2026-02-02 02:53:53] ℹ️  [INFO][0m 执行时间: 0分16秒
+[0;34m[2026-02-02 02:53:53] ℹ️  [INFO][0m 日志文件: /home/ubuntu/awesome-github-stars/logs/collect_2026-02-02.log (12K)
+[0;32m[2026-02-02 02:53:53] ✅ [SUCCESS][0m ==========================================
+[0;34m[2026-02-02 02:53:53] ℹ️  [INFO][0m 清理旧日志文件...
+[0;32m[2026-02-02 02:53:53] ✅ [SUCCESS][0m 日志清理完成
+[0;32m[2026-02-02 02:53:53] ✅ [SUCCESS][0m 脚本执行成功，退出码: 0
