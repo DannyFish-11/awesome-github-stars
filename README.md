@@ -1,9 +1,9 @@
 # 🌟 Awesome GitHub Stars Collection
 
 [![Auto Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)](https://github.com/DannyFish-11/awesome-github-stars)
-[![Projects](https://img.shields.io/badge/Projects-105-blue)](https://github.com/DannyFish-11/awesome-github-stars)
-[![Days](https://img.shields.io/badge/Days-7-orange)](https://github.com/DannyFish-11/awesome-github-stars)
-[![Languages](https://img.shields.io/badge/Languages-13-red)](https://github.com/DannyFish-11/awesome-github-stars)
+[![Projects](https://img.shields.io/badge/Projects-120-blue)](https://github.com/DannyFish-11/awesome-github-stars)
+[![Days](https://img.shields.io/badge/Days-8-orange)](https://github.com/DannyFish-11/awesome-github-stars)
+[![Languages](https://img.shields.io/badge/Languages-14-red)](https://github.com/DannyFish-11/awesome-github-stars)
 
 ## 📖 项目简介
 
@@ -18,11 +18,11 @@
 
 ## 📊 统计数据
 
-- **累计收集天数**: 7 天
-- **累计收集项目**: 105 个
-- **涵盖编程语言**: 13 种
-- **热门语言**: Python, TypeScript, None, Rust, C
-- **最后更新**: 2026-02-05
+- **累计收集天数**: 8 天
+- **累计收集项目**: 120 个
+- **涵盖编程语言**: 14 种
+- **热门语言**: TypeScript, Python, None, Rust, C
+- **最后更新**: 2026-02-06
 
 ## 📂 仓库结构
 
@@ -70,7 +70,7 @@ awesome-github-stars/
 查看最新收集的项目：[点击这里](./2026/01-January/)
 
 ### 按月浏览
-- [2026年1月](./2026/01-January/) - 7 天，105 个项目
+- [2026年1月](./2026/01-January/) - 8 天，120 个项目
 
 ## 🚀 使用说明
 
@@ -117,7 +117,7 @@ MIT License - 数据来源于 GitHub 公开信息
 
 ---
 
-**最后更新**: 2026-02-05  
+**最后更新**: 2026-02-06  
 **自动化工具**: Manus AI Agent  
 **数据来源**: GitHub Trending & GitHub Ranking  
 **项目地址**: https://github.com/DannyFish-11/awesome-github-stars  
